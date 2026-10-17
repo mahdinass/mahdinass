@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 304" role="img" aria-labelledby="title desc">
+<title id="title">Mahdi Nasser — Applied AI and Engineering</title>
+<desc id="desc">A dark navy banner with turquoise and blue neural-network nodes and a simple introduction.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#0c1428"/><stop offset="0.58" stop-color="#101c32"/><stop offset="1" stop-color="#12273b"/></linearGradient>
+  <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#66e8cf"/><stop offset="1" stop-color="#93b7ff"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#4aafc4" stop-opacity=".24"/><stop offset="1" stop-color="#4aafc4" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="304" rx="20" fill="url(#bg)"/>
+<circle cx="1000" cy="145" r="255" fill="url(#glow)"/>
+<rect x="1" y="1" width="1198" height="302" rx="19" fill="none" stroke="#29485c" stroke-opacity=".9" stroke-width="2"/>
+<rect x="69" y="62" width="5" height="162" rx="3" fill="url(#accent)"/>
+<g font-family="Segoe UI, Inter, Arial, sans-serif">
+<text x="94" y="75" font-size="16" letter-spacing="3.1" fill="#7de5d5" font-weight="700">HELLO, I'M</text>
+<text x="93" y="141" font-size="58" fill="#f3f7fd" font-weight="800">Mahdi Nasser</text>
+<text x="95" y="186" font-size="26" fill="#b8cae6" font-weight="500">Applied AI <tspan fill="#7be2d0">×</tspan> Engineering</text>
+<text x="95" y="226" font-size="16" fill="#9caec5">From physical systems to learning systems.</text>
+<text x="94" y="263" font-size="12" fill="#6f91ab" letter-spacing="2">BUILD   ·   EXPERIMENT   ·   UNDERSTAND</text>
+</g>
+<g stroke="#5bbfc5" stroke-opacity=".34" stroke-width="2" fill="none">
+<path d="M805 70 L904 42 L1003 91 L1110 55 M805 70 L860 160 L952 145 L1003 91 L1070 195 L1141 148 M860 160 L809 231 L933 250 L1070 195 L1118 254 M904 42 L952 145 L933 250 M1003 91 L1141 148 L1118 254 M952 145 L1070 195 M809 231 L860 160"/>
+</g>
+<g fill="#122e45" stroke="#7ee6d5" stroke-width="2.5">
+<circle cx="805" cy="70" r="10"/><circle cx="904" cy="42" r="9"/><circle cx="1003" cy="91" r="12"/><circle cx="1110" cy="55" r="8"/><circle cx="860" cy="160" r="11"/><circle cx="952" cy="145" r="13"/><circle cx="1070" cy="195" r="12"/><circle cx="1141" cy="148" r="8"/><circle cx="809" cy="231" r="8"/><circle cx="933" cy="250" r="9"/><circle cx="1118" cy="254" r="7"/>
+</g>
+<g fill="#a0b9ff"><circle cx="904" cy="42" r="4"/><circle cx="1003" cy="91" r="5"/><circle cx="952" cy="145" r="6"/><circle cx="1070" cy="195" r="5"/><circle cx="933" cy="250" r="4"/></g>
+</svg>
