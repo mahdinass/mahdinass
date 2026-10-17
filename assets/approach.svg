@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 192" role="img" aria-labelledby="title desc">
+<title id="title">How I approach AI engineering</title>
+<desc id="desc">Data and signals lead to models, then rigorous evaluation and finally decisions in the real world.</desc>
+<defs><linearGradient id="b" x1="0" x2="1"><stop stop-color="#122338"/><stop offset="1" stop-color="#182c44"/></linearGradient></defs>
+<rect width="1060" height="192" rx="18" fill="#0d1728"/>
+<g font-family="Segoe UI, Inter, Arial, sans-serif" text-anchor="middle">
+<g fill="url(#b)" stroke="#38566c" stroke-width="1.5">
+<rect x="22" y="35" width="227" height="122" rx="14"/><rect x="285" y="35" width="227" height="122" rx="14"/><rect x="548" y="35" width="227" height="122" rx="14"/><rect x="811" y="35" width="227" height="122" rx="14"/>
+</g>
+<g fill="#82e7d4"><circle cx="135" cy="63" r="6"/><circle cx="398" cy="63" r="6"/><circle cx="661" cy="63" r="6"/><circle cx="924" cy="63" r="6"/></g>
+<g fill="#edf4ff" font-size="19" font-weight="700">
+<text x="135" y="102">Data &amp; signals</text><text x="398" y="102">Models</text><text x="661" y="102">Evaluation</text><text x="924" y="102">Real decisions</text>
+</g>
+<g fill="#9db6cb" font-size="12">
+<text x="135" y="125">Understand the problem</text><text x="398" y="125">Build &amp; experiment</text><text x="661" y="125">Measure what matters</text><text x="924" y="125">Make it useful</text>
+</g>
+</g>
+<g fill="none" stroke="#77ddd3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M257 94h19m-8-8 8 8-8 8"/><path d="M520 94h19m-8-8 8 8-8 8"/><path d="M783 94h19m-8-8 8 8-8 8"/></g>
+</svg>
