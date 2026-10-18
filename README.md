@@ -2,6 +2,12 @@
 
 <img src="assets/hero.svg" width="100%" alt="Mahdi Nasser — Applied AI and Engineering. From physical systems to learning systems."/>
 
+<!-- One subtle animation up front. Two colors keep it readable in GitHub light/dark mode. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=19&amp;duration=2800&amp;pause=1050&amp;color=78DCD0&amp;center=true&amp;vCenter=true&amp;width=850&amp;height=54&amp;lines=Building+AI+systems+that+go+beyond+prediction;Deep+learning+%7C+LLMs+%7C+Agents+%7C+RL;From+physical+systems+to+learning+systems">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=19&amp;duration=2800&amp;pause=1050&amp;color=117D89&amp;center=true&amp;vCenter=true&amp;width=850&amp;height=54&amp;lines=Building+AI+systems+that+go+beyond+prediction;Deep+learning+%7C+LLMs+%7C+Agents+%7C+RL;From+physical+systems+to+learning+systems" width="100%" alt="Animated typing: building AI systems, deep learning, LLMs, agents, RL and engineering.">
+</picture>
+
 [**Projects**](#-things-ive-built) · [**Currently building**](#-on-the-workbench) · [**How I think**](#-from-a-model-to-a-useful-system) · [**Say hello**](#-lets-connect)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahdi-nasser-aa6a0525a/)
@@ -131,6 +137,20 @@ That mindset comes partly from building physical systems, where the real world d
 **Things I enjoy working on:** Agents with verifiable reasoning, deep-learning architectures, reinforcement learning, evaluation that exposes failure modes, and ML for physical systems.
 
 </details>
+
+## 📊 A little GitHub telemetry
+
+<div align="center">
+
+<!-- Live widgets from third-party public services; they can be temporarily unavailable. -->
+<img src="https://github-readme-stats.vercel.app/api?username=mahdinass&amp;show_icons=true&amp;include_all_commits=true&amp;rank_icon=github&amp;hide_border=true&amp;bg_color=0C1428&amp;title_color=78DCD0&amp;text_color=DCE9F5&amp;icon_color=9AB8FF" width="420" alt="Live GitHub activity stats for mahdinass"/>
+<img src="https://streak-stats.demolab.com?user=mahdinass&amp;hide_border=true&amp;background=0C1428&amp;ring=78DCD0&amp;fire=9AB8FF&amp;currStreakNum=F3F7FF&amp;sideNums=F3F7FF&amp;currStreakLabel=78DCD0&amp;sideLabels=B5C8DB&amp;dates=95AFC7" width="420" alt="Live GitHub contribution streak statistics for mahdinass"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mahdinass&amp;bg_color=0C1428&amp;color=DCE9F5&amp;title_color=78DCD0&amp;line=78DCD0&amp;point=9AB8FF&amp;area_color=1E847E&amp;area=true&amp;hide_border=true&amp;custom_title=Contribution%20activity&amp;days=35" width="100%" alt="Graph of recent public GitHub contribution activity"/>
+
+<sub>These are live GitHub widgets, not a measure of engineering ability. Work in private or collaborative repositories may not be fully reflected.</sub>
+
+</div>
 
 ## 🤝 Let's connect
 
