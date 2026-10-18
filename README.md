@@ -43,7 +43,7 @@ I like projects that force me to go beyond calling an API: implement the underly
 |:--:|---|---|
 | 🔋 | **[BatterySwapAI 2026](https://github.com/rabrie10/BatterySwapAI2026-MR)** · *Predictive maintenance & optimization* | **Top 5** in a two-person competition team. Modelled stochastic battery degradation using ~8M IoT measurements, then connected failure-risk predictions to scheduling and route optimization. |
 | 🧠 | **[Decoder-Only Transformer LLM](https://github.com/mahdinass/Decoder-Only-Transformer-LLM-standalone)** · *Deep learning fundamentals* | Built a character-level Transformer in PyTorch with causal attention, RMSNorm, KV caching, multiple decoding strategies and reproducible evaluations. Tested it against baselines instead of just showing generated samples. |
-| 🚁 | **[Drone Flyby — Nordic AI Cup](https://github.com/rabrie10/Gforce-ai-cup-2026/tree/main/drone-flyby)** · *Computer vision & active perception* | Worked on a YOLO/DINOv2-based aerial detection pipeline with tracking and camera control. Investigated deployment failures and used domain randomization to improve detection on a small diagnostic set. |
+| 🔎 | **[FakeTT — Multimodal Misinformation Detection](https://github.com/mahdinass/FakeTT-Multimodal-LLM-Research)** · *Multimodal LLMs & evaluation* | Led the text-classifier baseline and data-quality audits; worked with teammates on System 2 and developed the selected Prompt C + dynamic five-shot strategy. Fake-news recall rose from **66.7% to 75.0%** on a 74-video test split, with precision trade-offs clearly documented. |
 
 <details>
 <summary><strong>🔎 Pick a rabbit hole — what would you like to explore?</strong></summary>
@@ -52,6 +52,7 @@ I like projects that force me to go beyond calling an API: implement the underly
 
 - **Can ML predictions improve real operational decisions?** → [BatterySwapAI's case study](https://github.com/rabrie10/BatterySwapAI2026-MR/blob/main/docs/CASE_STUDY.md)
 - **What's actually inside a language model?** → [Transformer architecture and implementation](https://github.com/mahdinass/Decoder-Only-Transformer-LLM-standalone/blob/main/docs/ARCHITECTURE.md)
+- **Can a multimodal LLM detect more misinformation without flagging too much real content?** → [FakeTT results and ablations](https://github.com/mahdinass/FakeTT-Multimodal-LLM-Research#recorded-test-results)
 - **What happens when a vision system fails outside its training distribution?** → [Drone Flyby experiments](https://github.com/rabrie10/Gforce-ai-cup-2026/tree/main/drone-flyby)
 
 </details>
