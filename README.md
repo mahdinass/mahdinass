@@ -39,8 +39,18 @@ I like projects that force me to go beyond calling an API: implement the underly
 
 ## 🚀 Things I've built
 
+<p align="center">
+  <a href="https://github.com/mahdinass/Creature-Forge">
+    <img src="https://raw.githubusercontent.com/mahdinass/Creature-Forge/main/docs/assets/before-after-hero.jpg" width="78%" alt="Creature Forge in MuJoCo: original robot passes 0 of 8 push seeds; redesign passes 8 of 8 on a separate seed panel."/>
+  </a>
+  <br/>
+  <sub>Featured: <a href="https://github.com/mahdinass/Creature-Forge">Creature Forge</a> · <a href="https://youtu.be/hPY-_cK5Oow">Watch the demonstration</a> · Recorded simulation, separate seed panels.</sub>
+</p>
+
 | | Project | What made it interesting |
 |:--:|---|---|
+| 🤖 | **[Creature Forge](https://github.com/mahdinass/Creature-Forge)** · *Physical AI & LLM agents* | Built a MuJoCo robotics lab where NVIDIA Nemotron investigates failures, requests physics experiments and proposes bounded redesigns. Independent simulation verifies changes. In one live demo, an accepted redesign went from **0/8 to 8/8** push tests on separate seed panels. [Demo](https://youtu.be/hPY-_cK5Oow) · [Evidence](https://github.com/mahdinass/Creature-Forge#what-was-demonstrated-and-how-strongly). |
+| 🎮 | **[Scaling Deep RL](https://github.com/mahdinass/ele680-scaling-drl)** · *Soft Actor-Critic · team research* | Compared **8 network architectures** across **24 one-million-step HalfCheetah-v5 runs** (three seeds each), isolating width, depth, normalization and residual connections. Published reproducible analysis and limitations, without claiming a general scaling law. |
 | 🔋 | **[BatterySwapAI 2026](https://github.com/rabrie10/BatterySwapAI2026-MR)** · *Predictive maintenance & optimization* | **Top 5** in a two-person competition team. Modelled stochastic battery degradation using ~8M IoT measurements, then connected failure-risk predictions to scheduling and route optimization. |
 | 🧠 | **[Decoder-Only Transformer LLM](https://github.com/mahdinass/Decoder-Only-Transformer-LLM-standalone)** · *Deep learning fundamentals* | Built a character-level Transformer in PyTorch with causal attention, RMSNorm, KV caching, multiple decoding strategies and reproducible evaluations. Tested it against baselines instead of just showing generated samples. |
 | 🔎 | **[FakeTT — Multimodal Misinformation Detection](https://github.com/mahdinass/FakeTT-Multimodal-LLM-Research)** · *Multimodal LLMs & evaluation* | Led the text-classifier baseline and data-quality audits; worked with teammates on System 2 and developed the selected Prompt C + dynamic five-shot strategy. Fake-news recall rose from **66.7% to 75.0%** on a 74-video test split, with precision trade-offs clearly documented. |
@@ -50,6 +60,8 @@ I like projects that force me to go beyond calling an API: implement the underly
 
 <br/>
 
+- **Can an AI investigate a robot failure and verify a physical redesign?** → [Creature Forge, demo and evidence](https://github.com/mahdinass/Creature-Forge)
+- **Does making an RL network larger actually help?** → [24 controlled SAC runs](https://github.com/mahdinass/ele680-scaling-drl#results-at-a-glance)
 - **Can ML predictions improve real operational decisions?** → [BatterySwapAI's case study](https://github.com/rabrie10/BatterySwapAI2026-MR/blob/main/docs/CASE_STUDY.md)
 - **What's actually inside a language model?** → [Transformer architecture and implementation](https://github.com/mahdinass/Decoder-Only-Transformer-LLM-standalone/blob/main/docs/ARCHITECTURE.md)
 - **Can a multimodal LLM detect more misinformation without flagging too much real content?** → [FakeTT results and ablations](https://github.com/mahdinass/FakeTT-Multimodal-LLM-Research#recorded-test-results)
@@ -59,7 +71,7 @@ I like projects that force me to go beyond calling an API: implement the underly
 
 ## 🧪 On the workbench
 
-*A few projects I'm still experimenting with. I'll share them publicly when they're ready — no release dates promised.*
+*Projects still in development or not yet released publicly.*
 
 <details>
 <summary><strong>🧩 PEIS — An agent that investigates evidence, not just retrieves it</strong></summary>
@@ -71,32 +83,6 @@ Building a provenance-aware AI system that can search technical evidence, invest
 **Exploring:** Agentic reasoning · retrieval · structured memory · evidence verification · context-efficient LLM workflows.
 
 **Status:** In active development. Public repository to follow.
-
-</details>
-
-<details>
-<summary><strong>🤖 Creature Forge — Can an AI learn from a robot falling?</strong></summary>
-
-<br/>
-
-Exploring a physics-grounded workflow where an AI proposes changes to simulated creatures, MuJoCo tests them, and explicit evaluation rules decide whether a proposed change actually helped.
-
-**Exploring:** Physical AI · LLM-guided experimentation · physics simulation · controlled comparisons.
-
-**Status:** Experimental project. Public release planned after further work.
-
-</details>
-
-<details>
-<summary><strong>🎮 Scaling Deep RL — What changes when neural networks get bigger?</strong></summary>
-
-<br/>
-
-Studying neural-network scale in deep reinforcement learning through controlled training experiments, repeatable runs and evaluation in simulated environments.
-
-**Exploring:** Deep RL · network capacity · training stability · experimental design.
-
-**Status:** Ongoing university team project; publication after completion and permission checks.
 
 </details>
 
