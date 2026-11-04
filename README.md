@@ -54,6 +54,7 @@ I like projects that force me to go beyond calling an API: implement the underly
 | 🔋 | **[BatterySwapAI 2026](https://github.com/rabrie10/BatterySwapAI2026-MR)** · *Predictive maintenance & optimization* | **Top 5** in a two-person competition team. Modelled stochastic battery degradation using ~8M IoT measurements, then connected failure-risk predictions to scheduling and route optimization. |
 | 🧠 | **[Decoder-Only Transformer LLM](https://github.com/mahdinass/Decoder-Only-Transformer-LLM-standalone)** · *Deep learning fundamentals* | Built a character-level Transformer in PyTorch with causal attention, RMSNorm, KV caching, multiple decoding strategies and reproducible evaluations. Tested it against baselines instead of just showing generated samples. |
 | 🔎 | **[FakeTT — Multimodal Misinformation Detection](https://github.com/mahdinass/FakeTT-Multimodal-LLM-Research)** · *Multimodal LLMs & evaluation* | Led the text-classifier baseline and data-quality audits; worked with teammates on System 2 and developed the selected Prompt C + dynamic five-shot strategy. Fake-news recall rose from **66.7% to 75.0%** on a 74-video test split, with precision trade-offs clearly documented. |
+| 🎵 | **[MusicCRS](https://github.com/mahdinass/MusicCRS)** · *Conversational AI & recommender systems* | Built a music-discovery workspace with catalog-grounded search, listening-context and feedback-aware ranking, and natural-language playlist controls. An optional, bounded LLM planner uses validated Python tools for state changes; preferences are only persisted with explicit approval. [Architecture](https://github.com/mahdinass/MusicCRS/blob/main/docs/architecture.md). |
 
 <details>
 <summary><strong>🔎 Pick a rabbit hole — what would you like to explore?</strong></summary>
@@ -65,6 +66,7 @@ I like projects that force me to go beyond calling an API: implement the underly
 - **Can ML predictions improve real operational decisions?** → [BatterySwapAI's case study](https://github.com/rabrie10/BatterySwapAI2026-MR/blob/main/docs/CASE_STUDY.md)
 - **What's actually inside a language model?** → [Transformer architecture and implementation](https://github.com/mahdinass/Decoder-Only-Transformer-LLM-standalone/blob/main/docs/ARCHITECTURE.md)
 - **Can a multimodal LLM detect more misinformation without flagging too much real content?** → [FakeTT results and ablations](https://github.com/mahdinass/FakeTT-Multimodal-LLM-Research#recorded-test-results)
+- **How can a conversational recommender use an LLM without letting it directly change application state?** → [MusicCRS architecture](https://github.com/mahdinass/MusicCRS/blob/main/docs/architecture.md)
 - **What happens when a vision system fails outside its training distribution?** → [Drone Flyby experiments](https://github.com/rabrie10/Gforce-ai-cup-2026/tree/main/drone-flyby)
 
 </details>
@@ -83,19 +85,6 @@ Building a provenance-aware AI system that can search technical evidence, invest
 **Exploring:** Agentic reasoning · retrieval · structured memory · evidence verification · context-efficient LLM workflows.
 
 **Status:** In active development. Public repository to follow.
-
-</details>
-
-<details>
-<summary><strong>🎵 MusicCRS — Conversational music recommendations</strong></summary>
-
-<br/>
-
-Building a conversational music system that combines reliable catalog operations with natural-language interaction, contextual references and recommendation-oriented functionality.
-
-**Exploring:** Conversational AI · retrieval · recommender systems · constrained LLM tool use.
-
-**Status:** Ongoing university team project; publication after completion and permission checks.
 
 </details>
 
