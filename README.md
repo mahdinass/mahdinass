@@ -52,25 +52,32 @@ I like projects that force me to go beyond calling an API: implement the underly
 | 🤖 | **[Creature Forge](https://github.com/mahdinass/Creature-Forge)** · *Physical AI & LLM agents* | Built a MuJoCo robotics lab where NVIDIA Nemotron investigates failures, requests physics experiments and proposes bounded redesigns. Independent simulation verifies changes. In one live demo, an accepted redesign went from **0/8 to 8/8** push tests on separate seed panels. [Demo](https://youtu.be/hPY-_cK5Oow) · [Evidence](https://github.com/mahdinass/Creature-Forge#what-was-demonstrated-and-how-strongly). |
 | 🚁 | **[Drone Flyby](https://github.com/mahdinass/Drone-Flyby-Active-Vision)** · *Active vision · Nordic AI Cup 2026* | Built the perception and camera-control pipeline for our team entry using YOLO11s, DINOv2 and full-frame tracking. After retraining with domain randomization, proposals matching annotated targets at IoU ≥ 0.50 rose from **3/14 to 13/14** in an offline diagnostic replay. |
 | 🩻 | **[Explainable Stroke Outcome Prediction](https://github.com/mahdinass/ELE630-Stroke-XAI-Public)** · *3D medical imaging · ELE630 team research* | Co-developed models for 90-day stroke outcomes using admission CT and clinical features. Evaluated Grad-CAM and HiResCAM against matched random perturbations. The clinical-only baseline had the highest AUROC on the **28-patient internal holdout**. |
-| 🎮 | **[Scaling Deep RL](https://github.com/mahdinass/ele680-scaling-drl)** · *Soft Actor-Critic · team research* | Compared **8 network architectures** across **24 one-million-step HalfCheetah-v5 runs** (three seeds each), isolating width, depth, normalization and residual connections. Published reproducible analysis and limitations, without claiming a general scaling law. |
-| 🔋 | **[BatterySwapAI 2026](https://github.com/rabrie10/BatterySwapAI2026-MR)** · *Predictive maintenance & optimization* | **Top 5** in a two-person competition team. Modelled stochastic battery degradation using ~8M IoT measurements, then connected failure-risk predictions to scheduling and route optimization. |
-| 🧠 | **[Decoder-Only Transformer LLM](https://github.com/mahdinass/Decoder-Only-Transformer-LLM-standalone)** · *Deep learning fundamentals* | Built a character-level Transformer in PyTorch with causal attention, RMSNorm, KV caching, multiple decoding strategies and reproducible evaluations. Tested it against baselines instead of just showing generated samples. |
-| 🔎 | **[FakeTT — Multimodal Misinformation Detection](https://github.com/mahdinass/FakeTT-Multimodal-LLM-Research)** · *Multimodal LLMs & evaluation* | Led the text-classifier baseline and data-quality audits; worked with teammates on System 2 and developed the selected Prompt C + dynamic five-shot strategy. Fake-news recall rose from **66.7% to 75.0%** on a 74-video test split, with precision trade-offs clearly documented. |
-| 🎵 | **[MusicCRS](https://github.com/mahdinass/MusicCRS)** · *Conversational AI & recommender systems* | Built a music-discovery workspace with catalog-grounded search, listening-context and feedback-aware ranking, and natural-language playlist controls. An optional, bounded LLM planner uses validated Python tools for state changes; preferences are only persisted with explicit approval. [Architecture](https://github.com/mahdinass/MusicCRS/blob/main/docs/architecture.md). |
+
+### Browse by topic
 
 <details>
-<summary><strong>🔎 Pick a rabbit hole — what would you like to explore?</strong></summary>
+<summary><strong>Agents &amp; LLMs</strong></summary>
 
-<br/>
+- **[Creature Forge](https://github.com/mahdinass/Creature-Forge)**. An LLM agent investigates robot failures, requests MuJoCo experiments and proposes redesigns.
+- **[MusicCRS](https://github.com/mahdinass/MusicCRS)** · *Conversational AI & recommender systems*. Built a music-discovery workspace with catalog-grounded search, listening-context and feedback-aware ranking, and natural-language playlist controls. An optional, bounded LLM planner uses validated Python tools for state changes; preferences are only persisted with explicit approval. [Architecture](https://github.com/mahdinass/MusicCRS/blob/main/docs/architecture.md).
+- **[Decoder-Only Transformer LLM](https://github.com/mahdinass/Decoder-Only-Transformer-LLM-standalone)** · *Deep learning fundamentals*. Built a character-level Transformer in PyTorch with causal attention, RMSNorm, KV caching, multiple decoding strategies and reproducible evaluations. Tested it against baselines instead of just showing generated samples. [Model architecture](https://github.com/mahdinass/Decoder-Only-Transformer-LLM-standalone/blob/main/docs/ARCHITECTURE.md).
+- **[FakeTT — Multimodal Misinformation Detection](https://github.com/mahdinass/FakeTT-Multimodal-LLM-Research)** · *Multimodal LLMs & evaluation*. Led the text-classifier baseline and data-quality audits; worked with teammates on System 2 and developed the selected Prompt C + dynamic five-shot strategy. Fake-news recall rose from **66.7% to 75.0%** on a 74-video test split, with precision trade-offs clearly documented. [Results and ablations](https://github.com/mahdinass/FakeTT-Multimodal-LLM-Research#recorded-test-results).
 
-- **Can an AI investigate a robot failure and verify a physical redesign?** → [Creature Forge, demo and evidence](https://github.com/mahdinass/Creature-Forge)
-- **Does making an RL network larger actually help?** → [24 controlled SAC runs](https://github.com/mahdinass/ele680-scaling-drl#results-at-a-glance)
-- **Can ML predictions improve real operational decisions?** → [BatterySwapAI's case study](https://github.com/rabrie10/BatterySwapAI2026-MR/blob/main/docs/CASE_STUDY.md)
-- **What's actually inside a language model?** → [Transformer architecture and implementation](https://github.com/mahdinass/Decoder-Only-Transformer-LLM-standalone/blob/main/docs/ARCHITECTURE.md)
-- **Can a multimodal LLM detect more misinformation without flagging too much real content?** → [FakeTT results and ablations](https://github.com/mahdinass/FakeTT-Multimodal-LLM-Research#recorded-test-results)
-- **How can a conversational recommender use an LLM without letting it directly change application state?** → [MusicCRS architecture](https://github.com/mahdinass/MusicCRS/blob/main/docs/architecture.md)
-- **How can a detector track objects beyond the camera's current view?** → [Drone Flyby architecture](https://github.com/mahdinass/Drone-Flyby-Active-Vision#from-pixels-to-the-next-view)
-- **Did CT images add predictive value beyond the clinical baseline?** → [ELE630 held-out results](https://github.com/mahdinass/ELE630-Stroke-XAI-Public#results-development-versus-final-internal-test)
+</details>
+
+<details>
+<summary><strong>Computer Vision &amp; Medical AI</strong></summary>
+
+- **[Drone Flyby](https://github.com/mahdinass/Drone-Flyby-Active-Vision)**. Aerial object detection with active camera control. [Pipeline diagram](https://github.com/mahdinass/Drone-Flyby-Active-Vision#from-pixels-to-the-next-view).
+- **[ELE630 Stroke XAI](https://github.com/mahdinass/ELE630-Stroke-XAI-Public)**. 3D CT modelling, explanation methods and a clinical baseline. [Held-out results](https://github.com/mahdinass/ELE630-Stroke-XAI-Public#results-development-versus-final-internal-test).
+
+</details>
+
+<details>
+<summary><strong>RL &amp; Optimization</strong></summary>
+
+- **[Scaling Deep RL](https://github.com/mahdinass/ele680-scaling-drl)** · *Soft Actor-Critic · team research*. Compared **8 network architectures** across **24 one-million-step HalfCheetah-v5 runs** (three seeds each), isolating width, depth, normalization and residual connections. Published reproducible analysis and limitations, without claiming a general scaling law. [Results](https://github.com/mahdinass/ele680-scaling-drl#results-at-a-glance).
+- **[BatterySwapAI 2026](https://github.com/rabrie10/BatterySwapAI2026-MR)** · *Predictive maintenance & optimization*. **Top 5** in a two-person competition team. Modelled stochastic battery degradation using ~8M IoT measurements, then connected failure-risk predictions to scheduling and route optimization. [Case study](https://github.com/rabrie10/BatterySwapAI2026-MR/blob/main/docs/CASE_STUDY.md).
 
 </details>
 
