@@ -24,7 +24,7 @@ I'm pursuing an **M.Sc. in Cybernetics & Applied AI** at the University of Stava
 
 I started with control systems, embedded electronics, motors and sensors. Somewhere along the way, I became fascinated by how machines **learn, reason and make decisions**.
 
-These days I spend a lot of time exploring **deep learning, LLMs, AI agents and reinforcement learning**. My favorite part isn't just getting something to work — it's finding out *why* it works, where it breaks, and what would make it better.
+These days I spend a lot of time exploring **deep learning, computer vision, LLM agents and reinforcement learning**. My favorite part isn't just getting something to work — it's finding out *why* it works, where it breaks, and what would make it better.
 
 <details>
 <summary><strong>💬 A little more about how I got here</strong></summary>
@@ -50,6 +50,8 @@ I like projects that force me to go beyond calling an API: implement the underly
 | | Project | What made it interesting |
 |:--:|---|---|
 | 🤖 | **[Creature Forge](https://github.com/mahdinass/Creature-Forge)** · *Physical AI & LLM agents* | Built a MuJoCo robotics lab where NVIDIA Nemotron investigates failures, requests physics experiments and proposes bounded redesigns. Independent simulation verifies changes. In one live demo, an accepted redesign went from **0/8 to 8/8** push tests on separate seed panels. [Demo](https://youtu.be/hPY-_cK5Oow) · [Evidence](https://github.com/mahdinass/Creature-Forge#what-was-demonstrated-and-how-strongly). |
+| 🚁 | **[Drone Flyby](https://github.com/mahdinass/Drone-Flyby-Active-Vision)** · *Active vision · Nordic AI Cup 2026* | Built the perception and camera-control pipeline for our team entry using YOLO11s, DINOv2 and full-frame tracking. After retraining with domain randomization, proposals matching annotated targets at IoU ≥ 0.50 rose from **3/14 to 13/14** in an offline diagnostic replay. |
+| 🩻 | **[Explainable Stroke Outcome Prediction](https://github.com/mahdinass/ELE630-Stroke-XAI-Public)** · *3D medical imaging · ELE630 team research* | Co-developed models for 90-day stroke outcomes using admission CT and clinical features. Evaluated Grad-CAM and HiResCAM against matched random perturbations. The clinical-only baseline had the highest AUROC on the **28-patient internal holdout**. |
 | 🎮 | **[Scaling Deep RL](https://github.com/mahdinass/ele680-scaling-drl)** · *Soft Actor-Critic · team research* | Compared **8 network architectures** across **24 one-million-step HalfCheetah-v5 runs** (three seeds each), isolating width, depth, normalization and residual connections. Published reproducible analysis and limitations, without claiming a general scaling law. |
 | 🔋 | **[BatterySwapAI 2026](https://github.com/rabrie10/BatterySwapAI2026-MR)** · *Predictive maintenance & optimization* | **Top 5** in a two-person competition team. Modelled stochastic battery degradation using ~8M IoT measurements, then connected failure-risk predictions to scheduling and route optimization. |
 | 🧠 | **[Decoder-Only Transformer LLM](https://github.com/mahdinass/Decoder-Only-Transformer-LLM-standalone)** · *Deep learning fundamentals* | Built a character-level Transformer in PyTorch with causal attention, RMSNorm, KV caching, multiple decoding strategies and reproducible evaluations. Tested it against baselines instead of just showing generated samples. |
@@ -67,7 +69,8 @@ I like projects that force me to go beyond calling an API: implement the underly
 - **What's actually inside a language model?** → [Transformer architecture and implementation](https://github.com/mahdinass/Decoder-Only-Transformer-LLM-standalone/blob/main/docs/ARCHITECTURE.md)
 - **Can a multimodal LLM detect more misinformation without flagging too much real content?** → [FakeTT results and ablations](https://github.com/mahdinass/FakeTT-Multimodal-LLM-Research#recorded-test-results)
 - **How can a conversational recommender use an LLM without letting it directly change application state?** → [MusicCRS architecture](https://github.com/mahdinass/MusicCRS/blob/main/docs/architecture.md)
-- **What happens when a vision system fails outside its training distribution?** → [Drone Flyby experiments](https://github.com/rabrie10/Gforce-ai-cup-2026/tree/main/drone-flyby)
+- **How can a detector track objects beyond the camera's current view?** → [Drone Flyby architecture](https://github.com/mahdinass/Drone-Flyby-Active-Vision#from-pixels-to-the-next-view)
+- **Did CT images add predictive value beyond the clinical baseline?** → [ELE630 held-out results](https://github.com/mahdinass/ELE630-Stroke-XAI-Public#results-development-versus-final-internal-test)
 
 </details>
 
